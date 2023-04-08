@@ -1,0 +1,37 @@
+*{font-family: 'Comic Sans MS';}
+#header1 {
+    width: 300px;
+    border: 15px solid rgb(9, 61, 9);
+    padding: 50px;
+    margin: 20px;
+  }
+body {
+    background-color: rgb(111, 219, 192);
+  }
+.text1 {
+    background-color: rgb(255, 115, 0);
+  }
+header {
+    background-color: rgb(118, 124, 123);
+  }
+section {
+    background-color: rgb(136, 88, 136);
+  }
+  footer {
+    background-color: rgb(0, 0, 0);
+  }
+
+   /* The animation code */
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+  
+  /* The element to apply the animation to */
+#header2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  } 
