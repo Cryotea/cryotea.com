@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'Teletextfont' ;
+  src: url(fonts/EuropeanTeletext.ttf) format(truetype);
+}
+ * {font-family: 'Teletextfont' ;}
+
+body {
+  background-color: rgb(71, 71, 71);
+  
+}
+
+.header1 {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 20px;
+  width: 600px;
+  color: white;
+  text-align: left;
+  margin: auto;
+  
+}
+
+#input_p_number {
+border:none;
+background-color:rgb(71, 71, 71) ;
+width:50px;
+padding: 0cm;
+
+}
+
+
+#divmain {
+height: 800px;
+width: 600px;
+margin:auto
+}
+
+
+
+.color1 {
+  color: rgb(0, 225, 255);
+  text-decoration: none;
+}
+
+.color2 {
+color: rgb(0, 255, 76);
+text-decoration: none;
+}
+
+.color3 {
+color:red;
+text-decoration: none;
+
+}
+
+.color4 {
+color: blueviolet;
+text-decoration: none;
+
+}
+
+.color5 {
+color: rgb(163, 163, 163);
+text-decoration: none;
+
+}
+
+#main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px; height: 300px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#text1 {
+  height: 200px;
+  width: 200px;
+  
+}
+
+#text2 {
+  height: 200px;
+  width: 200px;
+  
+}
+
+#text3 {
+  height: 200px;
+  width: 200px; 
+}
+
+#text4 {
+  height: 200px;
+  width: 200px; 
+}
+
+

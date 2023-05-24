@@ -1,0 +1,7 @@
+ToDo list
+
+Zahlen oben sodass man sie seiten so auch navigieren kann
+
+scalling so das die website auch auf großen/kleinen bildischirmen gut aussieht
+
+scalling für pixelart rausfinden
